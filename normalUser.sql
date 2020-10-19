@@ -165,6 +165,18 @@ CREATE TABLE public.msg_history (
 
 ALTER TABLE public.msg_history OWNER TO ejabberd;
 
+--
+-- TOC entry 253 (class 1259 OID 17533)
+-- Name: msgview_old; Type: VIEW; Schema: public; Owner: postgres
+--
+
+CREATE VIEW public.msgview_old AS
+ SELECT msg_history.m_from,
+    msg_history.create_time AS s_date
+   FROM public.msg_history;
+
+
+ALTER TABLE public.msgview_old OWNER TO postgres;
 
 --
 -- TOC entry 248 (class 1259 OID 17514)
@@ -1760,4 +1772,4 @@ ALTER TABLE ONLY public.pubsub_state
 
 
 
-    
+

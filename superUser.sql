@@ -750,7 +750,7 @@ CREATE TABLE public.host_users (
 
 ALTER TABLE public.host_users OWNER TO postgres;
 
-COMMENT ON COLUMN host_users.pwd_salt IS '密码salt';
+COMMENT ON COLUMN public.host_users.pwd_salt IS '密码salt';
 
 --
 -- TOC entry 226 (class 1259 OID 17363)
