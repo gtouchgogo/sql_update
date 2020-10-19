@@ -1008,18 +1008,18 @@ ALTER TABLE public.msg_history_backup OWNER TO postgres;
 
 
 
---
--- TOC entry 253 (class 1259 OID 17533)
--- Name: msgview_old; Type: VIEW; Schema: public; Owner: postgres
---
+-- --
+-- -- TOC entry 253 (class 1259 OID 17533)
+-- -- Name: msgview_old; Type: VIEW; Schema: public; Owner: postgres
+-- --
 
-CREATE VIEW public.msgview_old AS
- SELECT msg_history.m_from,
-    msg_history.create_time AS s_date
-   FROM public.msg_history;
+-- CREATE VIEW public.msgview_old AS
+--  SELECT msg_history.m_from,
+--     msg_history.create_time AS s_date
+--    FROM public.msg_history;
 
 
-ALTER TABLE public.msgview_old OWNER TO postgres;
+-- ALTER TABLE public.msgview_old OWNER TO postgres;
 
 
 --
@@ -2426,7 +2426,7 @@ CREATE INDEX host_users_host_id_idx ON public.host_users USING btree (host_id);
 --
 
 CREATE INDEX host_users_user_id_idx ON public.host_users USING btree (user_id);
-CREATE INDEX host_users_host_id_idx ON public.host_id USING btree (host_id);
+-- CREATE INDEX host_users_host_id_idx ON public.host_id USING btree (host_id);
 
 
 --
@@ -2784,13 +2784,6 @@ CREATE INDEX scheduling_info_scheduling_id_member_idx ON public.scheduling_info 
 --
 
 CREATE INDEX scheduling_info_update_time_member_idx ON public.scheduling_info USING btree (update_time, member);
-
---
--- TOC entry 4437 (class 1259 OID 18594)
--- Name: user_friends_username_userhost_friend_host_idx; Type: INDEX; Schema: public; Owner: ejabberd
---
-
-CREATE UNIQUE INDEX user_friends_username_userhost_friend_host_idx ON public.user_friends USING btree (username, userhost, friend, host);
 
 
 --

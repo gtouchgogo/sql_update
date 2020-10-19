@@ -1,3 +1,4 @@
+/connect ejabberd
 --
 -- TOC entry 203 (class 1259 OID 17229)
 -- Name: admin_user; Type: TABLE; Schema: public; Owner: ejabberd
@@ -164,6 +165,7 @@ CREATE TABLE public.msg_history (
 
 
 ALTER TABLE public.msg_history OWNER TO ejabberd;
+
 
 --
 -- TOC entry 253 (class 1259 OID 17533)
@@ -1026,8 +1028,8 @@ ALTER TABLE ONLY public.notice_history ADD CONSTRAINT notice_history_pkey PRIMAR
 -- TOC entry 4116 (class 2606 OID 18291)
 -- Name: flogin_user pk_flogin_user; Type: CONSTRAINT; Schema: public; Owner: ejabberd
 --
-
-ALTER TABLE ONLY public.flogin_user ADD CONSTRAINT pk_flogin_user PRIMARY KEY (username);
+-- FIXED: 已有主键id
+-- ALTER TABLE ONLY public.flogin_user ADD CONSTRAINT pk_flogin_user PRIMARY KEY (username);
 
 --
 -- TOC entry 4159 (class 2606 OID 18293)
@@ -1724,6 +1726,13 @@ CREATE INDEX user_register_mucs_username_registed_flag_domain_idx ON public.user
 
 CREATE UNIQUE INDEX vcard_version_username_host_idx ON public.vcard_version USING btree (username, host);
 
+
+--
+-- TOC entry 4437 (class 1259 OID 18594)
+-- Name: user_friends_username_userhost_friend_host_idx; Type: INDEX; Schema: public; Owner: ejabberd
+--
+
+CREATE UNIQUE INDEX user_friends_username_userhost_friend_host_idx ON public.user_friends USING btree (username, userhost, friend, host);
 
 
 --
