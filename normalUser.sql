@@ -1,4 +1,4 @@
-/connect ejabberd
+\connect ejabberd
 --
 -- TOC entry 203 (class 1259 OID 17229)
 -- Name: admin_user; Type: TABLE; Schema: public; Owner: ejabberd
