@@ -171,7 +171,7 @@ ALTER TABLE public.msg_history OWNER TO ejabberd;
 
 --
 -- TOC entry 253 (class 1259 OID 17533)
--- Name: msgview_old; Type: VIEW; Schema: public; Owner: postgres
+-- Name: msgview_old; Type: VIEW; Schema: public; Owner: ejabberd
 --
 
 CREATE VIEW public.msgview_old AS
@@ -180,7 +180,7 @@ CREATE VIEW public.msgview_old AS
    FROM public.msg_history;
 
 
-ALTER TABLE public.msgview_old OWNER TO postgres;
+ALTER TABLE public.msgview_old OWNER TO ejabberd;
 
 --
 -- TOC entry 248 (class 1259 OID 17514)
