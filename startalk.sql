@@ -19,7 +19,7 @@
 -- --
 
 -- CREATE DATABASE ejabberd WITH TEMPLATE = template0 OWNER = startalk;
--- REVOKE ALL ON DATABASE ejabberd FROM startalk;
+-- -- REVOKE ALL ON DATABASE ejabberd FROM startalk;
 -- ALTER DATABASE ejabberd SET standard_conforming_strings TO 'off';
 -- REVOKE CONNECT,TEMPORARY ON DATABASE template1 FROM PUBLIC;
 -- GRANT CONNECT ON DATABASE template1 TO PUBLIC;
@@ -2931,7 +2931,7 @@ CREATE INDEX warn_msg_history_read_flag_idx ON public.warn_msg_history USING btr
 -- Name: SCHEMA public; Type: ACL; Schema: -; Owner: startalk
 --
 
-REVOKE ALL ON SCHEMA public FROM startalk;
+-- REVOKE ALL ON SCHEMA public FROM startalk;
 
 --
 -- TOC entry 4905 (class 0 OID 0)
@@ -2939,7 +2939,7 @@ REVOKE ALL ON SCHEMA public FROM startalk;
 -- Name: TABLE fresh_empl_entering; Type: ACL; Schema: public; Owner: startalk
 --
 
-REVOKE ALL ON TABLE public.fresh_empl_entering FROM startalk;
+-- REVOKE ALL ON TABLE public.fresh_empl_entering FROM startalk;
 
 
 --
@@ -2948,7 +2948,7 @@ REVOKE ALL ON TABLE public.fresh_empl_entering FROM startalk;
 -- Name: SEQUENCE fresh_empl_entering_id_seq; Type: ACL; Schema: public; Owner: startalk
 --
 
-REVOKE ALL ON SEQUENCE public.fresh_empl_entering_id_seq FROM startalk;
+-- REVOKE ALL ON SEQUENCE public.fresh_empl_entering_id_seq FROM startalk;
 
 
 --
@@ -2957,7 +2957,7 @@ REVOKE ALL ON SEQUENCE public.fresh_empl_entering_id_seq FROM startalk;
 -- Name: TABLE host_info; Type: ACL; Schema: public; Owner: startalk
 --
 
-REVOKE ALL ON TABLE public.host_info FROM startalk;
+-- REVOKE ALL ON TABLE public.host_info FROM startalk;
 
 
 --
@@ -2966,7 +2966,7 @@ REVOKE ALL ON TABLE public.host_info FROM startalk;
 -- Name: SEQUENCE host_info_id_seq; Type: ACL; Schema: public; Owner: startalk
 --
 
-REVOKE ALL ON SEQUENCE public.host_info_id_seq FROM startalk;
+-- REVOKE ALL ON SEQUENCE public.host_info_id_seq FROM startalk;
 
 
 --
@@ -2975,7 +2975,7 @@ REVOKE ALL ON SEQUENCE public.host_info_id_seq FROM startalk;
 -- Name: TABLE host_users; Type: ACL; Schema: public; Owner: startalk
 --
 
-REVOKE ALL ON TABLE public.host_users FROM startalk;
+-- REVOKE ALL ON TABLE public.host_users FROM startalk;
 
 
 --
@@ -2984,7 +2984,7 @@ REVOKE ALL ON TABLE public.host_users FROM startalk;
 -- Name: SEQUENCE host_users_id_seq; Type: ACL; Schema: public; Owner: startalk
 --
 
-REVOKE ALL ON SEQUENCE public.host_users_id_seq FROM startalk;
+-- REVOKE ALL ON SEQUENCE public.host_users_id_seq FROM startalk;
 
 --
 -- TOC entry 4936 (class 0 OID 0)
@@ -2992,7 +2992,7 @@ REVOKE ALL ON SEQUENCE public.host_users_id_seq FROM startalk;
 -- Name: TABLE msg_history_backup; Type: ACL; Schema: public; Owner: startalk
 --
 
-REVOKE ALL ON TABLE public.msg_history_backup FROM startalk;
+-- REVOKE ALL ON TABLE public.msg_history_backup FROM startalk;
 
 --
 -- TOC entry 4942 (class 0 OID 0)
@@ -3000,7 +3000,7 @@ REVOKE ALL ON TABLE public.msg_history_backup FROM startalk;
 -- Name: TABLE muc_room_history_backup; Type: ACL; Schema: public; Owner: startalk
 --
 
-REVOKE ALL ON TABLE public.muc_room_history_backup FROM startalk;
+-- REVOKE ALL ON TABLE public.muc_room_history_backup FROM startalk;
 
 
 --
@@ -3009,7 +3009,7 @@ REVOKE ALL ON TABLE public.muc_room_history_backup FROM startalk;
 -- Name: TABLE pg_buffercache; Type: ACL; Schema: public; Owner: startalk
 --
 
-REVOKE ALL ON TABLE public.pg_buffercache FROM startalk;
+-- REVOKE ALL ON TABLE public.pg_buffercache FROM startalk;
 
 
 --
@@ -3018,7 +3018,7 @@ REVOKE ALL ON TABLE public.pg_buffercache FROM startalk;
 -- Name: TABLE qcloud_main; Type: ACL; Schema: public; Owner: startalk
 --
 
-REVOKE ALL ON TABLE public.qcloud_main FROM startalk;
+-- REVOKE ALL ON TABLE public.qcloud_main FROM startalk;
 
 
 --
@@ -3027,7 +3027,7 @@ REVOKE ALL ON TABLE public.qcloud_main FROM startalk;
 -- Name: TABLE qcloud_main_history; Type: ACL; Schema: public; Owner: startalk
 --
 
-REVOKE ALL ON TABLE public.qcloud_main_history FROM startalk;
+-- REVOKE ALL ON TABLE public.qcloud_main_history FROM startalk;
 
 
 --
@@ -3036,7 +3036,7 @@ REVOKE ALL ON TABLE public.qcloud_main_history FROM startalk;
 -- Name: SEQUENCE qcloud_main_history_id_seq; Type: ACL; Schema: public; Owner: startalk
 --
 
-REVOKE ALL ON SEQUENCE public.qcloud_main_history_id_seq FROM startalk;
+-- REVOKE ALL ON SEQUENCE public.qcloud_main_history_id_seq FROM startalk;
 
 
 --
@@ -3045,7 +3045,7 @@ REVOKE ALL ON SEQUENCE public.qcloud_main_history_id_seq FROM startalk;
 -- Name: SEQUENCE qcloud_main_id_seq; Type: ACL; Schema: public; Owner: startalk
 --
 
-REVOKE ALL ON SEQUENCE public.qcloud_main_id_seq FROM startalk;
+-- REVOKE ALL ON SEQUENCE public.qcloud_main_id_seq FROM startalk;
 
 
 --
@@ -3054,7 +3054,7 @@ REVOKE ALL ON SEQUENCE public.qcloud_main_id_seq FROM startalk;
 -- Name: TABLE qcloud_sub; Type: ACL; Schema: public; Owner: startalk
 --
 
-REVOKE ALL ON TABLE public.qcloud_sub FROM startalk;
+-- REVOKE ALL ON TABLE public.qcloud_sub FROM startalk;
 
 
 --
@@ -3063,7 +3063,7 @@ REVOKE ALL ON TABLE public.qcloud_sub FROM startalk;
 -- Name: TABLE qcloud_sub_history; Type: ACL; Schema: public; Owner: startalk
 --
 
-REVOKE ALL ON TABLE public.qcloud_sub_history FROM startalk;
+-- REVOKE ALL ON TABLE public.qcloud_sub_history FROM startalk;
 
 
 --
@@ -3072,7 +3072,7 @@ REVOKE ALL ON TABLE public.qcloud_sub_history FROM startalk;
 -- Name: SEQUENCE qcloud_sub_history_id_seq; Type: ACL; Schema: public; Owner: startalk
 --
 
-REVOKE ALL ON SEQUENCE public.qcloud_sub_history_id_seq FROM startalk;
+-- REVOKE ALL ON SEQUENCE public.qcloud_sub_history_id_seq FROM startalk;
 
 
 --
@@ -3081,7 +3081,7 @@ REVOKE ALL ON SEQUENCE public.qcloud_sub_history_id_seq FROM startalk;
 -- Name: SEQUENCE qcloud_sub_id_seq; Type: ACL; Schema: public; Owner: startalk
 --
 
-REVOKE ALL ON SEQUENCE public.qcloud_sub_id_seq FROM startalk;
+-- REVOKE ALL ON SEQUENCE public.qcloud_sub_id_seq FROM startalk;
 
 
 --
@@ -3090,7 +3090,7 @@ REVOKE ALL ON SEQUENCE public.qcloud_sub_id_seq FROM startalk;
 -- Name: TABLE revoke_msg_history_backup; Type: ACL; Schema: public; Owner: startalk
 --
 
-REVOKE ALL ON TABLE public.revoke_msg_history_backup FROM startalk;
+-- REVOKE ALL ON TABLE public.revoke_msg_history_backup FROM startalk;
 
 
 --
@@ -3099,7 +3099,7 @@ REVOKE ALL ON TABLE public.revoke_msg_history_backup FROM startalk;
 -- Name: TABLE scheduling_info; Type: ACL; Schema: public; Owner: startalk
 --
 
-REVOKE ALL ON TABLE public.scheduling_info FROM startalk;
+-- REVOKE ALL ON TABLE public.scheduling_info FROM startalk;
 
 
 --
@@ -3108,7 +3108,7 @@ REVOKE ALL ON TABLE public.scheduling_info FROM startalk;
 -- Name: SEQUENCE scheduling_info_id_seq; Type: ACL; Schema: public; Owner: startalk
 --
 
-REVOKE ALL ON SEQUENCE public.scheduling_info_id_seq FROM startalk;
+-- REVOKE ALL ON SEQUENCE public.scheduling_info_id_seq FROM startalk;
 
 
 --
@@ -3117,7 +3117,7 @@ REVOKE ALL ON SEQUENCE public.scheduling_info_id_seq FROM startalk;
 -- Name: TABLE warn_msg_history; Type: ACL; Schema: public; Owner: startalk
 --
 
-REVOKE ALL ON TABLE public.warn_msg_history FROM startalk;
+-- REVOKE ALL ON TABLE public.warn_msg_history FROM startalk;
 
 
 --
@@ -3126,7 +3126,7 @@ REVOKE ALL ON TABLE public.warn_msg_history FROM startalk;
 -- Name: SEQUENCE warn_msg_history_id_seq; Type: ACL; Schema: public; Owner: startalk
 --
 
-REVOKE ALL ON SEQUENCE public.warn_msg_history_id_seq FROM startalk;
+-- REVOKE ALL ON SEQUENCE public.warn_msg_history_id_seq FROM startalk;
 
 
 --
@@ -3135,7 +3135,7 @@ REVOKE ALL ON SEQUENCE public.warn_msg_history_id_seq FROM startalk;
 -- Name: TABLE warn_msg_history_backup; Type: ACL; Schema: public; Owner: startalk
 --
 
-REVOKE ALL ON TABLE public.warn_msg_history_backup FROM startalk;
+-- REVOKE ALL ON TABLE public.warn_msg_history_backup FROM startalk;
 
 -- Completed on 2018-12-13 17:11:42 CST
 
@@ -3262,8 +3262,7 @@ REVOKE ALL ON TABLE public.warn_msg_history_backup FROM startalk;
 
 -- --------------------------------------
 
-
-CREATE TABLE sys_role
+CREATE TABLE public.sys_role
 (
   id          SERIAL                                                NOT NULL
     CONSTRAINT sys_role_pkey
@@ -3274,22 +3273,22 @@ CREATE TABLE sys_role
   role_name   VARCHAR(100)
 );
 
-COMMENT ON COLUMN sys_role.id IS '自增id';
+COMMENT ON COLUMN public.sys_role.id IS '自增id';
 
-COMMENT ON COLUMN sys_role.describe IS '角色描述';
+COMMENT ON COLUMN public.sys_role.describe IS '角色描述';
 
-COMMENT ON COLUMN sys_role.create_time IS '创建时间';
+COMMENT ON COLUMN public.sys_role.create_time IS '创建时间';
 
-COMMENT ON COLUMN sys_role.update_time IS '更新时间';
+COMMENT ON COLUMN public.sys_role.update_time IS '更新时间';
 
-COMMENT ON COLUMN sys_role.role_name IS '角色名称';
-
-
-INSERT INTO sys_role ( describe, create_time, update_time, role_name) VALUES ('所有权限', '2019-05-15 03:25:07.078138', '2019-05-15 03:25:07.078138', '超级管理员');
+COMMENT ON COLUMN public.sys_role.role_name IS '角色名称';
 
 
+INSERT INTO public.sys_role ( describe, create_time, update_time, role_name) VALUES ('所有权限', '2019-05-15 03:25:07.078138', '2019-05-15 03:25:07.078138', '超级管理员');
 
-CREATE TABLE sys_role_permission
+
+
+CREATE TABLE public.sys_role_permission
 (
   id            SERIAL NOT NULL
     CONSTRAINT sys_role_permission_pkey
@@ -3298,47 +3297,47 @@ CREATE TABLE sys_role_permission
   permission_id INTEGER
 );
 
-COMMENT ON COLUMN sys_role_permission.id IS '自增id';
+COMMENT ON COLUMN public.sys_role_permission.id IS '自增id';
 
-COMMENT ON COLUMN sys_role_permission.role_id IS '角色id';
+COMMENT ON COLUMN public.sys_role_permission.role_id IS '角色id';
 
-COMMENT ON COLUMN sys_role_permission.permission_id IS '权限id';
+COMMENT ON COLUMN public.sys_role_permission.permission_id IS '权限id';
 
-INSERT INTO sys_role_permission (role_id, permission_id) VALUES (1, 1);
-INSERT INTO sys_role_permission (role_id, permission_id) VALUES (1, 2);
-INSERT INTO sys_role_permission (role_id, permission_id) VALUES (1, 3);
-INSERT INTO sys_role_permission (role_id, permission_id) VALUES (1, 4);
-INSERT INTO sys_role_permission (role_id, permission_id) VALUES (1, 5);
-INSERT INTO sys_role_permission (role_id, permission_id) VALUES (1, 6);
-INSERT INTO sys_role_permission (role_id, permission_id) VALUES (1, 7);
-INSERT INTO sys_role_permission (role_id, permission_id) VALUES (1, 8);
-INSERT INTO sys_role_permission (role_id, permission_id) VALUES (1, 9);
-INSERT INTO sys_role_permission (role_id, permission_id) VALUES (1, 10);
-INSERT INTO sys_role_permission (role_id, permission_id) VALUES (1, 11);
-INSERT INTO sys_role_permission (role_id, permission_id) VALUES (1, 12);
-INSERT INTO sys_role_permission (role_id, permission_id) VALUES (1, 13);
-INSERT INTO sys_role_permission (role_id, permission_id) VALUES (1, 14);
-INSERT INTO sys_role_permission (role_id, permission_id) VALUES (1, 15);
-INSERT INTO sys_role_permission (role_id, permission_id) VALUES (1, 16);
-INSERT INTO sys_role_permission (role_id, permission_id) VALUES (1, 17);
-INSERT INTO sys_role_permission (role_id, permission_id) VALUES (1, 18);
-INSERT INTO sys_role_permission (role_id, permission_id) VALUES (1, 19);
-INSERT INTO sys_role_permission (role_id, permission_id) VALUES (1, 20);
-INSERT INTO sys_role_permission (role_id, permission_id) VALUES (1, 21);
-INSERT INTO sys_role_permission (role_id, permission_id) VALUES (1, 22);
-INSERT INTO sys_role_permission (role_id, permission_id) VALUES (1, 23);
-INSERT INTO sys_role_permission (role_id, permission_id) VALUES (1, 24);
-INSERT INTO sys_role_permission (role_id, permission_id) VALUES (1, 25);
-INSERT INTO sys_role_permission (role_id, permission_id) VALUES (1, 26);
-INSERT INTO sys_role_permission (role_id, permission_id) VALUES (1, 27);
-INSERT INTO sys_role_permission (role_id, permission_id) VALUES (1, 28);
-INSERT INTO sys_role_permission (role_id, permission_id) VALUES (1, 29);
-INSERT INTO sys_role_permission (role_id, permission_id) VALUES (1, 30);
-INSERT INTO sys_role_permission (role_id, permission_id) VALUES (1, 31);
-INSERT INTO sys_role_permission (role_id, permission_id) VALUES (1, 32);
+INSERT INTO public.sys_role_permission (role_id, permission_id) VALUES (1, 1);
+INSERT INTO public.sys_role_permission (role_id, permission_id) VALUES (1, 2);
+INSERT INTO public.sys_role_permission (role_id, permission_id) VALUES (1, 3);
+INSERT INTO public.sys_role_permission (role_id, permission_id) VALUES (1, 4);
+INSERT INTO public.sys_role_permission (role_id, permission_id) VALUES (1, 5);
+INSERT INTO public.sys_role_permission (role_id, permission_id) VALUES (1, 6);
+INSERT INTO public.sys_role_permission (role_id, permission_id) VALUES (1, 7);
+INSERT INTO public.sys_role_permission (role_id, permission_id) VALUES (1, 8);
+INSERT INTO public.sys_role_permission (role_id, permission_id) VALUES (1, 9);
+INSERT INTO public.sys_role_permission (role_id, permission_id) VALUES (1, 10);
+INSERT INTO public.sys_role_permission (role_id, permission_id) VALUES (1, 11);
+INSERT INTO public.sys_role_permission (role_id, permission_id) VALUES (1, 12);
+INSERT INTO public.sys_role_permission (role_id, permission_id) VALUES (1, 13);
+INSERT INTO public.sys_role_permission (role_id, permission_id) VALUES (1, 14);
+INSERT INTO public.sys_role_permission (role_id, permission_id) VALUES (1, 15);
+INSERT INTO public.sys_role_permission (role_id, permission_id) VALUES (1, 16);
+INSERT INTO public.sys_role_permission (role_id, permission_id) VALUES (1, 17);
+INSERT INTO public.sys_role_permission (role_id, permission_id) VALUES (1, 18);
+INSERT INTO public.sys_role_permission (role_id, permission_id) VALUES (1, 19);
+INSERT INTO public.sys_role_permission (role_id, permission_id) VALUES (1, 20);
+INSERT INTO public.sys_role_permission (role_id, permission_id) VALUES (1, 21);
+INSERT INTO public.sys_role_permission (role_id, permission_id) VALUES (1, 22);
+INSERT INTO public.sys_role_permission (role_id, permission_id) VALUES (1, 23);
+INSERT INTO public.sys_role_permission (role_id, permission_id) VALUES (1, 24);
+INSERT INTO public.sys_role_permission (role_id, permission_id) VALUES (1, 25);
+INSERT INTO public.sys_role_permission (role_id, permission_id) VALUES (1, 26);
+INSERT INTO public.sys_role_permission (role_id, permission_id) VALUES (1, 27);
+INSERT INTO public.sys_role_permission (role_id, permission_id) VALUES (1, 28);
+INSERT INTO public.sys_role_permission (role_id, permission_id) VALUES (1, 29);
+INSERT INTO public.sys_role_permission (role_id, permission_id) VALUES (1, 30);
+INSERT INTO public.sys_role_permission (role_id, permission_id) VALUES (1, 31);
+INSERT INTO public.sys_role_permission (role_id, permission_id) VALUES (1, 32);
 
 
-CREATE TABLE sys_permission
+CREATE TABLE public.sys_permission
 (
   id                 SERIAL                                                NOT NULL
     CONSTRAINT sys_permission_pkey
@@ -3352,60 +3351,60 @@ CREATE TABLE sys_permission
   navigation_flag    INTEGER DEFAULT 0
 );
 
-COMMENT ON COLUMN sys_permission.id IS '自增id';
+COMMENT ON COLUMN public.sys_permission.id IS '自增id';
 
-COMMENT ON COLUMN sys_permission.url IS '权限地址';
+COMMENT ON COLUMN public.sys_permission.url IS '权限地址';
 
-COMMENT ON COLUMN sys_permission.describe IS '权限描述';
+COMMENT ON COLUMN public.sys_permission.describe IS '权限描述';
 
-COMMENT ON COLUMN sys_permission.create_time IS '创建时间';
+COMMENT ON COLUMN public.sys_permission.create_time IS '创建时间';
 
-COMMENT ON COLUMN sys_permission.update_time IS '更新时间';
+COMMENT ON COLUMN public.sys_permission.update_time IS '更新时间';
 
-COMMENT ON COLUMN sys_permission.status IS '0:导航栏不显示,1:导航栏显示';
+COMMENT ON COLUMN public.sys_permission.status IS '0:导航栏不显示,1:导航栏显示';
 
-COMMENT ON COLUMN sys_permission.sub_permission_ids IS '子权限id列表';
+COMMENT ON COLUMN public.sys_permission.sub_permission_ids IS '子权限id列表';
 
-COMMENT ON COLUMN sys_permission.navigation_flag IS '是否映射导航栏';
+COMMENT ON COLUMN public.sys_permission.navigation_flag IS '是否映射导航栏';
 
-INSERT INTO sys_permission (id, url, describe, create_time, update_time, status, sub_permission_ids, navigation_flag) VALUES (1, '/qtalk_background_management/startalk/management/addUser/user', '', '2019-05-15 09:56:18.263012', '2019-05-15 09:56:18.263012', 1, null, 0);
-INSERT INTO sys_permission (id, url, describe, create_time, update_time, status, sub_permission_ids, navigation_flag) VALUES (2, '/qtalk_background_management/startalk/management/download/template', '', '2019-05-15 09:56:18.308918', '2019-05-15 09:56:18.308918', 1, null, 0);
-INSERT INTO sys_permission (id, url, describe, create_time, update_time, status, sub_permission_ids, navigation_flag) VALUES (3, '/qtalk_background_management/startalk/management/update/user', '', '2019-05-15 09:57:07.807083', '2019-05-15 09:57:07.807083', 1, null, 0);
-INSERT INTO sys_permission (id, url, describe, create_time, update_time, status, sub_permission_ids, navigation_flag) VALUES (4, '/qtalk_background_management/startalk/management/delete/user', '', '2019-05-15 09:57:07.835557', '2019-05-15 09:57:07.835557', 1, null, 0);
-INSERT INTO sys_permission (id, url, describe, create_time, update_time, status, sub_permission_ids, navigation_flag) VALUES (5, '/qtalk_background_management/startalk/management/getuserDetail', '', '2019-05-15 09:57:08.712239', '2019-05-15 09:57:08.712239', 1, null, 0);
-INSERT INTO sys_permission (id, url, describe, create_time, update_time, status, sub_permission_ids, navigation_flag) VALUES (6, '/qtalk_background_management/startalk/management/organ/addDep', '', '2019-05-15 09:57:08.140355', '2019-05-15 09:57:08.140355', 1, null, 0);
-INSERT INTO sys_permission (id, url, describe, create_time, update_time, status, sub_permission_ids, navigation_flag) VALUES (7, '/qtalk_background_management/startalk/management/organ/deleteDep', '', '2019-05-15 09:57:08.169407', '2019-05-15 09:57:08.169407', 1, null, 0);
-INSERT INTO sys_permission (id, url, describe, create_time, update_time, status, sub_permission_ids, navigation_flag) VALUES (8, '/qtalk_background_management/startalk/management/organ/addRoleClass', '', '2019-05-15 09:57:08.226841', '2019-05-15 09:57:08.226841', 1, null, 0);
-INSERT INTO sys_permission (id, url, describe, create_time, update_time, status, sub_permission_ids, navigation_flag) VALUES (9, '/qtalk_background_management/startalk/management/organ/addRole', '', '2019-05-15 09:57:08.252260', '2019-05-15 09:57:08.252260', 1, null, 0);
-INSERT INTO sys_permission (id, url, describe, create_time, update_time, status, sub_permission_ids, navigation_flag) VALUES (10, '/qtalk_background_management/startalk/management/organ/updateRole', '', '2019-05-15 09:57:08.284820', '2019-05-15 09:57:08.284820', 1, null, 0);
-INSERT INTO sys_permission (id, url, describe, create_time, update_time, status, sub_permission_ids, navigation_flag) VALUES (11, '/qtalk_background_management/startalk/management/organ/deleteRole', '', '2019-05-15 09:57:08.316238', '2019-05-15 09:57:08.316238', 1, null, 0);
-INSERT INTO sys_permission (id, url, describe, create_time, update_time, status, sub_permission_ids, navigation_flag) VALUES (12, '/qtalk_background_management/startalk/management/organ/getRoleClass', '', '2019-05-15 09:57:08.359823', '2019-05-15 09:57:08.359823', 1, null, 0);
-INSERT INTO sys_permission (id, url, describe, create_time, update_time, status, sub_permission_ids, navigation_flag) VALUES (13, '/qtalk_background_management/startalk/management/searchUser', '用户搜索', '2019-05-17 07:11:11.408295', '2019-05-17 07:11:11.408295', 1, null, 0);
-INSERT INTO sys_permission (id, url, describe, create_time, update_time, status, sub_permission_ids, navigation_flag) VALUES (14, '/qtalk_background_management/startalk/management/unbindRole', '解绑用户', '2019-05-17 07:11:11.408295', '2019-05-17 07:11:11.408295', 1, null, 0);
-INSERT INTO sys_permission (id, url, describe, create_time, update_time, status, sub_permission_ids, navigation_flag) VALUES (15, '/qtalk_background_management/startalk/management/bindRole', '绑定用户', '2019-05-17 07:11:11.408295', '2019-05-17 07:11:11.408295', 1, null, 0);
-INSERT INTO sys_permission (id, url, describe, create_time, update_time, status, sub_permission_ids, navigation_flag) VALUES (16, '/qtalk_background_management/startalk/management/findAllRoles', '所有角色', '2019-05-17 07:11:11.408295', '2019-05-17 07:11:11.408295', 1, '{18,19,20,21,22}', 1);
-INSERT INTO sys_permission (id, url, describe, create_time, update_time, status, sub_permission_ids, navigation_flag) VALUES (17, '/qtalk_background_management/startalk/management/queryUserList', '用户列表', '2019-05-17 07:11:11.408295', '2019-05-17 07:11:11.408295', 1, '{13,14,15,16}', 1);
-INSERT INTO sys_permission (id, url, describe, create_time, update_time, status, sub_permission_ids, navigation_flag) VALUES (18, '/qtalk_background_management/startalk/management/findAllPermissions', '所有权限', '2019-05-17 07:11:11.408295', '2019-05-17 07:11:11.408295', 1, null, 0);
-INSERT INTO sys_permission (id, url, describe, create_time, update_time, status, sub_permission_ids, navigation_flag) VALUES (19, '/qtalk_background_management/startalk/management/findPermissionByRoleId', '角色查找权限', '2019-05-17 07:11:11.408295', '2019-05-17 07:11:11.408295', 1, null, 0);
-INSERT INTO sys_permission (id, url, describe, create_time, update_time, status, sub_permission_ids, navigation_flag) VALUES (20, '/qtalk_background_management/startalk/management/updateRolePermissions', '更新权限', '2019-05-17 07:11:11.408295', '2019-05-17 07:11:11.408295', 1, null, 0);
-INSERT INTO sys_permission (id, url, describe, create_time, update_time, status, sub_permission_ids, navigation_flag) VALUES (21, '/qtalk_background_management/startalk/management/deleteRole', '删除角色', '2019-05-17 07:11:11.408295', '2019-05-17 07:11:11.408295', 1, null, 0);
-INSERT INTO sys_permission (id, url, describe, create_time, update_time, status, sub_permission_ids, navigation_flag) VALUES (22, '/qtalk_background_management/startalk/management/addNewRole', '添加角色', '2019-05-17 07:11:11.408295', '2019-05-17 07:11:11.408295', 1, null, 0);
-INSERT INTO sys_permission (id, url, describe, create_time, update_time, status, sub_permission_ids, navigation_flag) VALUES (23, '/qtalk_background_management/startalk/management/organ/getStructure', '', '2019-05-15 09:57:08.078643', '2019-05-15 09:57:08.078643', 1, '{6,7}', 1);
-INSERT INTO sys_permission (id, url, describe, create_time, update_time, status, sub_permission_ids, navigation_flag) VALUES (24, '/qtalk_background_management/startalk/management/organ/getAllRole', '', '2019-05-15 09:57:08.501870', '2019-05-15 09:57:08.501870', 1, '{8,9,10,11,12}', 1);
-INSERT INTO sys_permission (id, url, describe, create_time, update_time, status, sub_permission_ids, navigation_flag) VALUES (25, '/qtalk_background_management/startalk/management/search', '', '2019-05-15 09:57:08.662159', '2019-05-15 09:57:08.662159', 1, '{1,2,3,4,5}', 1);
+INSERT INTO public.sys_permission (id, url, describe, create_time, update_time, status, sub_permission_ids, navigation_flag) VALUES (1, '/qtalk_background_management/startalk/management/addUser/user', '', '2019-05-15 09:56:18.263012', '2019-05-15 09:56:18.263012', 1, null, 0);
+INSERT INTO public.sys_permission (id, url, describe, create_time, update_time, status, sub_permission_ids, navigation_flag) VALUES (2, '/qtalk_background_management/startalk/management/download/template', '', '2019-05-15 09:56:18.308918', '2019-05-15 09:56:18.308918', 1, null, 0);
+INSERT INTO public.sys_permission (id, url, describe, create_time, update_time, status, sub_permission_ids, navigation_flag) VALUES (3, '/qtalk_background_management/startalk/management/update/user', '', '2019-05-15 09:57:07.807083', '2019-05-15 09:57:07.807083', 1, null, 0);
+INSERT INTO public.sys_permission (id, url, describe, create_time, update_time, status, sub_permission_ids, navigation_flag) VALUES (4, '/qtalk_background_management/startalk/management/delete/user', '', '2019-05-15 09:57:07.835557', '2019-05-15 09:57:07.835557', 1, null, 0);
+INSERT INTO public.sys_permission (id, url, describe, create_time, update_time, status, sub_permission_ids, navigation_flag) VALUES (5, '/qtalk_background_management/startalk/management/getuserDetail', '', '2019-05-15 09:57:08.712239', '2019-05-15 09:57:08.712239', 1, null, 0);
+INSERT INTO public.sys_permission (id, url, describe, create_time, update_time, status, sub_permission_ids, navigation_flag) VALUES (6, '/qtalk_background_management/startalk/management/organ/addDep', '', '2019-05-15 09:57:08.140355', '2019-05-15 09:57:08.140355', 1, null, 0);
+INSERT INTO public.sys_permission (id, url, describe, create_time, update_time, status, sub_permission_ids, navigation_flag) VALUES (7, '/qtalk_background_management/startalk/management/organ/deleteDep', '', '2019-05-15 09:57:08.169407', '2019-05-15 09:57:08.169407', 1, null, 0);
+INSERT INTO public.sys_permission (id, url, describe, create_time, update_time, status, sub_permission_ids, navigation_flag) VALUES (8, '/qtalk_background_management/startalk/management/organ/addRoleClass', '', '2019-05-15 09:57:08.226841', '2019-05-15 09:57:08.226841', 1, null, 0);
+INSERT INTO public.sys_permission (id, url, describe, create_time, update_time, status, sub_permission_ids, navigation_flag) VALUES (9, '/qtalk_background_management/startalk/management/organ/addRole', '', '2019-05-15 09:57:08.252260', '2019-05-15 09:57:08.252260', 1, null, 0);
+INSERT INTO public.sys_permission (id, url, describe, create_time, update_time, status, sub_permission_ids, navigation_flag) VALUES (10, '/qtalk_background_management/startalk/management/organ/updateRole', '', '2019-05-15 09:57:08.284820', '2019-05-15 09:57:08.284820', 1, null, 0);
+INSERT INTO public.sys_permission (id, url, describe, create_time, update_time, status, sub_permission_ids, navigation_flag) VALUES (11, '/qtalk_background_management/startalk/management/organ/deleteRole', '', '2019-05-15 09:57:08.316238', '2019-05-15 09:57:08.316238', 1, null, 0);
+INSERT INTO public.sys_permission (id, url, describe, create_time, update_time, status, sub_permission_ids, navigation_flag) VALUES (12, '/qtalk_background_management/startalk/management/organ/getRoleClass', '', '2019-05-15 09:57:08.359823', '2019-05-15 09:57:08.359823', 1, null, 0);
+INSERT INTO public.sys_permission (id, url, describe, create_time, update_time, status, sub_permission_ids, navigation_flag) VALUES (13, '/qtalk_background_management/startalk/management/searchUser', '用户搜索', '2019-05-17 07:11:11.408295', '2019-05-17 07:11:11.408295', 1, null, 0);
+INSERT INTO public.sys_permission (id, url, describe, create_time, update_time, status, sub_permission_ids, navigation_flag) VALUES (14, '/qtalk_background_management/startalk/management/unbindRole', '解绑用户', '2019-05-17 07:11:11.408295', '2019-05-17 07:11:11.408295', 1, null, 0);
+INSERT INTO public.sys_permission (id, url, describe, create_time, update_time, status, sub_permission_ids, navigation_flag) VALUES (15, '/qtalk_background_management/startalk/management/bindRole', '绑定用户', '2019-05-17 07:11:11.408295', '2019-05-17 07:11:11.408295', 1, null, 0);
+INSERT INTO public.sys_permission (id, url, describe, create_time, update_time, status, sub_permission_ids, navigation_flag) VALUES (16, '/qtalk_background_management/startalk/management/findAllRoles', '所有角色', '2019-05-17 07:11:11.408295', '2019-05-17 07:11:11.408295', 1, '{18,19,20,21,22}', 1);
+INSERT INTO public.sys_permission (id, url, describe, create_time, update_time, status, sub_permission_ids, navigation_flag) VALUES (17, '/qtalk_background_management/startalk/management/queryUserList', '用户列表', '2019-05-17 07:11:11.408295', '2019-05-17 07:11:11.408295', 1, '{13,14,15,16}', 1);
+INSERT INTO public.sys_permission (id, url, describe, create_time, update_time, status, sub_permission_ids, navigation_flag) VALUES (18, '/qtalk_background_management/startalk/management/findAllPermissions', '所有权限', '2019-05-17 07:11:11.408295', '2019-05-17 07:11:11.408295', 1, null, 0);
+INSERT INTO public.sys_permission (id, url, describe, create_time, update_time, status, sub_permission_ids, navigation_flag) VALUES (19, '/qtalk_background_management/startalk/management/findPermissionByRoleId', '角色查找权限', '2019-05-17 07:11:11.408295', '2019-05-17 07:11:11.408295', 1, null, 0);
+INSERT INTO public.sys_permission (id, url, describe, create_time, update_time, status, sub_permission_ids, navigation_flag) VALUES (20, '/qtalk_background_management/startalk/management/updateRolePermissions', '更新权限', '2019-05-17 07:11:11.408295', '2019-05-17 07:11:11.408295', 1, null, 0);
+INSERT INTO public.sys_permission (id, url, describe, create_time, update_time, status, sub_permission_ids, navigation_flag) VALUES (21, '/qtalk_background_management/startalk/management/deleteRole', '删除角色', '2019-05-17 07:11:11.408295', '2019-05-17 07:11:11.408295', 1, null, 0);
+INSERT INTO public.sys_permission (id, url, describe, create_time, update_time, status, sub_permission_ids, navigation_flag) VALUES (22, '/qtalk_background_management/startalk/management/addNewRole', '添加角色', '2019-05-17 07:11:11.408295', '2019-05-17 07:11:11.408295', 1, null, 0);
+INSERT INTO public.sys_permission (id, url, describe, create_time, update_time, status, sub_permission_ids, navigation_flag) VALUES (23, '/qtalk_background_management/startalk/management/organ/getStructure', '', '2019-05-15 09:57:08.078643', '2019-05-15 09:57:08.078643', 1, '{6,7}', 1);
+INSERT INTO public.sys_permission (id, url, describe, create_time, update_time, status, sub_permission_ids, navigation_flag) VALUES (24, '/qtalk_background_management/startalk/management/organ/getAllRole', '', '2019-05-15 09:57:08.501870', '2019-05-15 09:57:08.501870', 1, '{8,9,10,11,12}', 1);
+INSERT INTO public.sys_permission (id, url, describe, create_time, update_time, status, sub_permission_ids, navigation_flag) VALUES (25, '/qtalk_background_management/startalk/management/search', '', '2019-05-15 09:57:08.662159', '2019-05-15 09:57:08.662159', 1, '{1,2,3,4,5}', 1);
 
-INSERT INTO sys_permission (id, url, describe, create_time, update_time, status, sub_permission_ids, navigation_flag) VALUES (26, '/qtalk_background_management/startalk/management/find/add/application', '', '2019-05-15 09:56:18.263012', '2019-05-15 09:56:18.263012', 1, null, 0);
-INSERT INTO sys_permission (id, url, describe, create_time, update_time, status, sub_permission_ids, navigation_flag) VALUES (27, '/qtalk_background_management/startalk/management/find/get/group', '', '2019-05-15 09:56:18.263012', '2019-05-15 09:56:18.263012', 1, null, 0);
-INSERT INTO sys_permission (id, url, describe, create_time, update_time, status, sub_permission_ids, navigation_flag) VALUES (28, '/qtalk_background_management/startalk/management/find/update/app', '', '2019-05-15 09:56:18.263012', '2019-05-15 09:56:18.263012', 1, null, 0);
-INSERT INTO sys_permission (id, url, describe, create_time, update_time, status, sub_permission_ids, navigation_flag) VALUES (29, '/qtalk_background_management/startalk/management/find/action/app', '', '2019-05-15 09:56:18.263012', '2019-05-15 09:56:18.263012', 1, null, 0);
-INSERT INTO sys_permission (id, url, describe, create_time, update_time, status, sub_permission_ids, navigation_flag) VALUES (30, '/qtalk_background_management/startalk/management/find/add/group', '', '2019-05-15 09:56:18.263012', '2019-05-15 09:56:18.263012', 1, null, 0);
-INSERT INTO sys_permission (id, url, describe, create_time, update_time, status, sub_permission_ids, navigation_flag) VALUES (31, '/qtalk_background_management/startalk/management/file/upload', '', '2019-05-15 09:56:18.263012', '2019-05-15 09:56:18.263012', 1, null, 0);
-INSERT INTO sys_permission (id, url, describe, create_time, update_time, status, sub_permission_ids, navigation_flag) VALUES (32, '/qtalk_background_management/startalk/management/find/management', '', '2019-05-15 09:57:08.662159', '2019-05-15 09:57:08.662159', 1, '{26,27,28,29,30,31}', 1);
+INSERT INTO public.sys_permission (id, url, describe, create_time, update_time, status, sub_permission_ids, navigation_flag) VALUES (26, '/qtalk_background_management/startalk/management/find/add/application', '', '2019-05-15 09:56:18.263012', '2019-05-15 09:56:18.263012', 1, null, 0);
+INSERT INTO public.sys_permission (id, url, describe, create_time, update_time, status, sub_permission_ids, navigation_flag) VALUES (27, '/qtalk_background_management/startalk/management/find/get/group', '', '2019-05-15 09:56:18.263012', '2019-05-15 09:56:18.263012', 1, null, 0);
+INSERT INTO public.sys_permission (id, url, describe, create_time, update_time, status, sub_permission_ids, navigation_flag) VALUES (28, '/qtalk_background_management/startalk/management/find/update/app', '', '2019-05-15 09:56:18.263012', '2019-05-15 09:56:18.263012', 1, null, 0);
+INSERT INTO public.sys_permission (id, url, describe, create_time, update_time, status, sub_permission_ids, navigation_flag) VALUES (29, '/qtalk_background_management/startalk/management/find/action/app', '', '2019-05-15 09:56:18.263012', '2019-05-15 09:56:18.263012', 1, null, 0);
+INSERT INTO public.sys_permission (id, url, describe, create_time, update_time, status, sub_permission_ids, navigation_flag) VALUES (30, '/qtalk_background_management/startalk/management/find/add/group', '', '2019-05-15 09:56:18.263012', '2019-05-15 09:56:18.263012', 1, null, 0);
+INSERT INTO public.sys_permission (id, url, describe, create_time, update_time, status, sub_permission_ids, navigation_flag) VALUES (31, '/qtalk_background_management/startalk/management/file/upload', '', '2019-05-15 09:56:18.263012', '2019-05-15 09:56:18.263012', 1, null, 0);
+INSERT INTO public.sys_permission (id, url, describe, create_time, update_time, status, sub_permission_ids, navigation_flag) VALUES (32, '/qtalk_background_management/startalk/management/find/management', '', '2019-05-15 09:57:08.662159', '2019-05-15 09:57:08.662159', 1, '{26,27,28,29,30,31}', 1);
 
-alter sequence sys_permission_id_seq restart with 33;
+alter sequence public.sys_role_permission_id_seq restart with 33;
 
 
-CREATE TABLE sys_user_role
+CREATE TABLE public.sys_user_role
 (
   id      SERIAL      NOT NULL
     CONSTRAINT sys_user_role_pkey
@@ -3414,18 +3413,18 @@ CREATE TABLE sys_user_role
   user_id VARCHAR(60) NOT NULL
 );
 
-COMMENT ON COLUMN sys_user_role.id IS '自增id';
+COMMENT ON COLUMN public.sys_user_role.id IS '自增id';
 
-COMMENT ON COLUMN sys_user_role.role_id IS '角色id';
+COMMENT ON COLUMN public.sys_user_role.role_id IS '角色id';
 
-COMMENT ON COLUMN sys_user_role.user_id IS '用户id';
+COMMENT ON COLUMN public.sys_user_role.user_id IS '用户id';
 
-CREATE UNIQUE INDEX sys_user_role_user_id_uindex ON sys_user_role (user_id);
-INSERT INTO sys_user_role (role_id, user_id) VALUES ( 1, 'admin');
+CREATE UNIQUE INDEX sys_user_role_user_id_uindex ON public.sys_user_role (user_id);
+INSERT INTO public.sys_user_role (role_id, user_id) VALUES ( 1, 'admin');
 
 
 
-CREATE TABLE persistent_logins
+CREATE TABLE public.persistent_logins
 (
   username  VARCHAR(64) NOT NULL,
   series    VARCHAR(64) NOT NULL
@@ -3435,7 +3434,7 @@ CREATE TABLE persistent_logins
   last_used TIMESTAMP   NOT NULL
 );
 
-create table find_application_table
+create table public.find_application_table
 (
     id                  serial              not null
         constraint find_application_table_pk
@@ -3471,74 +3470,74 @@ create table find_application_table
     app_uuid            varchar(50)
 );
 
-comment on column find_application_table.id is '自增id';
+comment on column public.find_application_table.id is '自增id';
 
-comment on column find_application_table.application_type is '应用类型，2RN应用，3 H5应用';
+comment on column public.find_application_table.application_type is '应用类型，2RN应用，3 H5应用';
 
-comment on column find_application_table.visible_range is '可见性范围，空标识全员可见';
+comment on column public.find_application_table.visible_range is '可见性范围，空标识全员可见';
 
-comment on column find_application_table.application_name is '应用名称';
+comment on column public.find_application_table.application_name is '应用名称';
 
-comment on column find_application_table.application_class is '应用分类';
+comment on column public.find_application_table.application_class is '应用分类';
 
-comment on column find_application_table.application_icon is '应用图标';
+comment on column public.find_application_table.application_icon is '应用图标';
 
-comment on column find_application_table.application_version is '应用版本号';
+comment on column public.find_application_table.application_version is '应用版本号';
 
-comment on column find_application_table.ios_version is 'ios版本号';
+comment on column public.find_application_table.ios_version is 'ios版本号';
 
-comment on column find_application_table.android_version is '安卓版本号';
+comment on column public.find_application_table.android_version is '安卓版本号';
 
-comment on column find_application_table.ios_bundle is 'iosbundle包，h5应用的话对应的是h5的地址';
+comment on column public.find_application_table.ios_bundle is 'iosbundle包，h5应用的话对应的是h5的地址';
 
-comment on column find_application_table.android_bundle is 'android的bundle包，h5应用对应的是地址';
+comment on column public.find_application_table.android_bundle is 'android的bundle包，h5应用对应的是地址';
 
-comment on column find_application_table.application_desc is '应用描述';
+comment on column public.find_application_table.application_desc is '应用描述';
 
-comment on column find_application_table.create_time is '创建时间';
+comment on column public.find_application_table.create_time is '创建时间';
 
-comment on column find_application_table.update_time is '更新时间';
+comment on column public.find_application_table.update_time is '更新时间';
 
-comment on column find_application_table.disable_flag is '禁用标志位';
+comment on column public.find_application_table.disable_flag is '禁用标志位';
 
-comment on column find_application_table.member_id is '在群组的id';
+comment on column public.find_application_table.member_id is '在群组的id';
 
-comment on column find_application_table.h5_action is 'h5页面地址';
+comment on column public.find_application_table.h5_action is 'h5页面地址';
 
-comment on column find_application_table.entrance is 'RN应用的入口地址';
+comment on column public.find_application_table.entrance is 'RN应用的入口地址';
 
-comment on column find_application_table.properties is '额外初始属性 map的json';
+comment on column public.find_application_table.properties is '额外初始属性 map的json';
 
-comment on column find_application_table.module is 'RN应用的程序入口';
+comment on column public.find_application_table.module is 'RN应用的程序入口';
 
-comment on column find_application_table.show_native_nav is '是否显示导航';
+comment on column public.find_application_table.show_native_nav is '是否显示导航';
 
-comment on column find_application_table.nav_title is '导航title h5应用不生效';
+comment on column public.find_application_table.nav_title is '导航title h5应用不生效';
 
-comment on column find_application_table.valid_platform is '可适配的客户端类型，IOS Angroid PC';
+comment on column public.find_application_table.valid_platform is '可适配的客户端类型，IOS Angroid PC';
 
-comment on column find_application_table.visible_platform is 'ios|Android|pc(101):5';
+comment on column public.find_application_table.visible_platform is 'ios|Android|pc(101):5';
 
-comment on column find_application_table.bundle_name is 'bundle 包的文件名 不同于applicaName';
+comment on column public.find_application_table.bundle_name is 'bundle 包的文件名 不同于applicaName';
 
-comment on column find_application_table.h5_action_ios is 'ios h5的页面地址';
+comment on column public.find_application_table.h5_action_ios is 'ios h5的页面地址';
 
-comment on column find_application_table.h5_action_android is 'h5 android页面地址';
+comment on column public.find_application_table.h5_action_android is 'h5 android页面地址';
 
-comment on column find_application_table.delete_flag is '删除标记位，1删除 0未删除';
+comment on column public.find_application_table.delete_flag is '删除标记位，1删除 0未删除';
 
-comment on column find_application_table.native_flag is '原生应用标记0是自定义，1是原生应用禁止修改';
+comment on column public.find_application_table.native_flag is '原生应用标记0是自定义，1是原生应用禁止修改';
 
-comment on column find_application_table.app_uuid is '应用的UUID';
+comment on column public.find_application_table.app_uuid is '应用的UUID';
 
 
 create unique index find_application_table_id_uindex
-    on find_application_table (id);
+    on public.find_application_table (id);
 
 create index find_application_table_application_name_index
-    on find_application_table (application_name);
+    on public.find_application_table (application_name);
 
-create table find_class_table
+create table public.find_class_table
 (
     id         serial       not null
         constraint find_class_table_pk
@@ -3547,22 +3546,22 @@ create table find_class_table
     group_icon varchar(200) not null
 );
 
-comment on table find_class_table is '应用分类表';
+comment on table public.find_class_table is '应用分类表';
 
-comment on column find_class_table.id is '自增ID';
+comment on column public.find_class_table.id is '自增ID';
 
-comment on column find_class_table.group_name is '分组名称';
+comment on column public.find_class_table.group_name is '分组名称';
 
-comment on column find_class_table.group_icon is '分组封面';
+comment on column public.find_class_table.group_icon is '分组封面';
 
 
 create unique index find_class_table_group_name_uindex
-    on find_class_table (group_name);
+    on public.find_class_table (group_name);
 
 create unique index find_class_table_id_uindex
-    on find_class_table (id);
+    on public.find_class_table (id);
 
-create table startalk_dep_table
+create table public.startalk_dep_table
 (
     id          serial                              not null
         constraint startalk_dep_table_pk
@@ -3580,41 +3579,41 @@ create table startalk_dep_table
     update_time timestamp default CURRENT_TIMESTAMP not null
 );
 
-comment on table startalk_dep_table is '部门信息表';
+comment on table public.startalk_dep_table is '部门信息表';
 
-comment on column startalk_dep_table.id is '自增ID';
+comment on column public.startalk_dep_table.id is '自增ID';
 
-comment on column startalk_dep_table.dep_name is '部门名称';
+comment on column public.startalk_dep_table.dep_name is '部门名称';
 
-comment on column startalk_dep_table.dep_level is '部门层级';
+comment on column public.startalk_dep_table.dep_level is '部门层级';
 
-comment on column startalk_dep_table.dep_vp is '部门领导';
+comment on column public.startalk_dep_table.dep_vp is '部门领导';
 
-comment on column startalk_dep_table.dep_hr is '部门HR';
+comment on column public.startalk_dep_table.dep_hr is '部门HR';
 
-comment on column startalk_dep_table.dep_visible is '部门可见性';
+comment on column public.startalk_dep_table.dep_visible is '部门可见性';
 
-comment on column startalk_dep_table.parent_id is '父级部门的ID';
+comment on column public.startalk_dep_table.parent_id is '父级部门的ID';
 
-comment on column startalk_dep_table.delete_flag is '部门删除标记位,0是未删除 1是已删除';
+comment on column public.startalk_dep_table.delete_flag is '部门删除标记位,0是未删除 1是已删除';
 
-comment on column startalk_dep_table.dep_desc is '部门信息备注';
+comment on column public.startalk_dep_table.dep_desc is '部门信息备注';
 
-comment on column startalk_dep_table.create_time is '创建时间';
+comment on column public.startalk_dep_table.create_time is '创建时间';
 
-comment on column startalk_dep_table.update_time is '更新时间';
+comment on column public.startalk_dep_table.update_time is '更新时间';
 
-CREATE UNIQUE INDEX startalk_dep_table_depName_uindex ON startalk_dep_table(dep_name);
+CREATE UNIQUE INDEX startalk_dep_table_depName_uindex ON public.startalk_dep_table(dep_name);
 create unique index startalk_dep_table_id_uindex
-    on startalk_dep_table (id);
+    on public.startalk_dep_table (id);
     
-INSERT INTO startalk_dep_table (dep_name, dep_level)
+INSERT INTO public.startalk_dep_table (dep_name, dep_level)
 VALUES('/管理员',1);
 
-INSERT INTO startalk_dep_table (dep_name, dep_level)
+INSERT INTO public.startalk_dep_table (dep_name, dep_level)
 VALUES('/智能服务助手',1);
 
-create table startalk_role_class
+create table public.startalk_role_class
 (
     id             serial            not null
         constraint startalk_role_class_pk
@@ -3623,22 +3622,22 @@ create table startalk_role_class
     available_flag integer default 1 not null
 );
 
-comment on table startalk_role_class is '角色分组';
+comment on table public.startalk_role_class is '角色分组';
 
-comment on column startalk_role_class.id is '自增id';
+comment on column public.startalk_role_class.id is '自增id';
 
-comment on column startalk_role_class.role_class is '角色分组';
+comment on column public.startalk_role_class.role_class is '角色分组';
 
-comment on column startalk_role_class.available_flag is '可用标志 1是可用 0表示不可用';
+comment on column public.startalk_role_class.available_flag is '可用标志 1是可用 0表示不可用';
 
 
 create unique index startalk_role_class_id_uindex
-    on startalk_role_class (id);
+    on public.startalk_role_class (id);
 
 create unique index startalk_role_class_role_class_uindex
-    on startalk_role_class (role_class);
+    on public.startalk_role_class (role_class);
 
-create table startalk_user_role_table
+create table public.startalk_user_role_table
 (
     id             serial            not null
         constraint startalk_user_role_table_pk
@@ -3650,47 +3649,47 @@ create table startalk_user_role_table
         unique (role_name, class_id)
 );
 
-comment on table startalk_user_role_table is 'startalk用户角色表';
+comment on table public.startalk_user_role_table is 'startalk用户角色表';
 
-comment on column startalk_user_role_table.id is '主键自增id';
+comment on column public.startalk_user_role_table.id is '主键自增id';
 
-comment on column startalk_user_role_table.role_name is '角色名';
+comment on column public.startalk_user_role_table.role_name is '角色名';
 
-comment on column startalk_user_role_table.available_flag is '可用标志位,1可用 0 不可用';
+comment on column public.startalk_user_role_table.available_flag is '可用标志位,1可用 0 不可用';
 
-comment on column startalk_user_role_table.class_id is '角色所属组别的ID';
+comment on column public.startalk_user_role_table.class_id is '角色所属组别的ID';
 
 
 create unique index startalk_user_role_table_id_uindex
-    on startalk_user_role_table (id);
+    on public.startalk_user_role_table (id);
+\conninfo
+insert into public.host_info (host, description, host_admin) values ('qtalk', 'qtalk', 'admin');
+insert into public.host_users (host_id, user_id, user_name, department, dep1, pinyin, frozen_flag, version, user_type, hire_flag, gender, password, initialpwd, pwd_salt, ps_deptid) values ('1', 'admin', '管理员', '/管理员', '管理员', 'admin', '0', '1', 'U', '1', '1', 'CRY:fd540f073cc09aa98220bbb234153bd5', '1', 'qtalkadmin_pwd_salt_d2bf42081aab47f4ac00697d7dd32993', 'qtalk');
+-- insert into public.vcard_version (username, version, profile_version, gender, host, url) values ('admin', '1', '1', '1', 'yourhost', '/file/v2/download/214b6c4f070cf08a1ed27dbd73fdee5d.png');
+insert into public.host_users (host_id, user_id, user_name, department, dep1, pinyin, frozen_flag, version, user_type, hire_flag, gender, password, initialpwd, pwd_salt, ps_deptid) values ('1', 'file-transfer', '文件传输助手', '/智能服务助手', '智能服务助手', 'file-transfer', '1', '1', 'U', '1', '1', 'CRY:fd540f073cc09aa98220bbb234153bd5', '1', 'qtalkadmin_pwd_salt_d2bf42081aab47f4ac00697d7dd32993', 'qtalk');
+-- insert into public.vcard_version (username, version, profile_version, gender, host, url) values ('file-transfer', '1', '1', '1', 'yourhost', '/file/v2/download/214b6c4f070cf08a1ed27dbd73fdee5d.png');
 
-insert into host_info (host, description, host_admin) values ('qtalk', 'qtalk', 'admin');
-insert into host_users (host_id, user_id, user_name, department, dep1, pinyin, frozen_flag, version, user_type, hire_flag, gender, password, initialpwd, pwd_salt, ps_deptid) values ('1', 'admin', '管理员', '/管理员', '管理员', 'admin', '0', '1', 'U', '1', '1', 'CRY:fd540f073cc09aa98220bbb234153bd5', '1', 'qtalkadmin_pwd_salt_d2bf42081aab47f4ac00697d7dd32993', 'qtalk');
-insert into vcard_version (username, version, profile_version, gender, host, url) values ('admin', '1', '1', '1', 'yourhost', '/file/v2/download/214b6c4f070cf08a1ed27dbd73fdee5d.png');
-insert into host_users (host_id, user_id, user_name, department, dep1, pinyin, frozen_flag, version, user_type, hire_flag, gender, password, initialpwd, pwd_salt, ps_deptid) values ('1', 'file-transfer', '文件传输助手', '/智能服务助手', '智能服务助手', 'file-transfer', '1', '1', 'U', '1', '1', 'CRY:fd540f073cc09aa98220bbb234153bd5', '1', 'qtalkadmin_pwd_salt_d2bf42081aab47f4ac00697d7dd32993', 'qtalk');
-insert into vcard_version (username, version, profile_version, gender, host, url) values ('file-transfer', '1', '1', '1', 'yourhost', '/file/v2/download/214b6c4f070cf08a1ed27dbd73fdee5d.png');
 
+INSERT INTO public.sys_permission(id ,describe,url,status,sub_permission_ids, navigation_flag) VALUES(33,'test','/qtalk_background_management/startalk/management/baseData',1,'{35}',1);
+INSERT INTO public.sys_permission(id ,describe,url,status,sub_permission_ids, navigation_flag) VALUES(34,'test','/qtalk_background_management/startalk/management/depList',1,'{}',0);
+INSERT INTO public.sys_permission(id ,describe,url,status,sub_permission_ids, navigation_flag) VALUES(35,'test','/qtalk_background_management/startalk/management/dayDataSearch',1,'{}',0);
+INSERT INTO public.sys_permission(id ,describe,url,status,sub_permission_ids, navigation_flag) VALUES(36,'test','/qtalk_background_management/startalk/management/dayMsgDataSearch',1,'{34,37}',1);
+INSERT INTO public.sys_permission(id ,describe,url,status,sub_permission_ids, navigation_flag) VALUES(37,'test','/qtalk_background_management/startalk/management/userMsgCount',1,'{}' ,0);
+INSERT INTO public.sys_permission(id ,describe,url,status,sub_permission_ids, navigation_flag) VALUES(38,'test','/qtalk_background_management/startalk/management/clientVersion',1,'{}' ,1);
+INSERT INTO public.sys_permission(id ,describe,url,status,sub_permission_ids, navigation_flag) VALUES(39,'test','/qtalk_background_management/startalk/management/getVersionList',1,'{}',0);
+INSERT INTO public.sys_permission(id ,describe,url,status,sub_permission_ids, navigation_flag) VALUES(40,'test','/qtalk_background_management/startalk/management/clickCount',1,'{41,42}',1);
+INSERT INTO public.sys_permission(id ,describe,url,status,sub_permission_ids, navigation_flag) VALUES(41,'test','/qtalk_background_management/startalk/management/selectList',1,'{}',0);
+INSERT INTO public.sys_permission(id ,describe,url,status,sub_permission_ids, navigation_flag) VALUES(42,'test','/qtalk_background_management/startalk/management/selectModel',1,'{}',0);
+INSERT INTO public.sys_permission(id ,describe,url,status,sub_permission_ids, navigation_flag) VALUES(43,'test','/qtalk_background_management/startalk/management/activity',1,'{}',1);
+INSERT INTO public.sys_permission(id ,describe,url,status,sub_permission_ids, navigation_flag) VALUES(44,'test','/qtalk_background_management/startalk/management/userOnline',1,'{45}',1);
+INSERT INTO public.sys_permission(id ,describe,url,status,sub_permission_ids, navigation_flag) VALUES(45,'test','/qtalk_background_management/startalk/management/searchUserOnline',1,'{}',0);
 
-INSERT INTO sys_permission(id ,describe,url,status,sub_permission_ids, navigation_flag) VALUES(33,'test','/qtalk_background_management/startalk/management/baseData',1,'{35}',1);
-INSERT INTO sys_permission(id ,describe,url,status,sub_permission_ids, navigation_flag) VALUES(34,'test','/qtalk_background_management/startalk/management/depList',1,'{}',0);
-INSERT INTO sys_permission(id ,describe,url,status,sub_permission_ids, navigation_flag) VALUES(35,'test','/qtalk_background_management/startalk/management/dayDataSearch',1,'{}',0);
-INSERT INTO sys_permission(id ,describe,url,status,sub_permission_ids, navigation_flag) VALUES(36,'test','/qtalk_background_management/startalk/management/dayMsgDataSearch',1,'{34,37}',1);
-INSERT INTO sys_permission(id ,describe,url,status,sub_permission_ids, navigation_flag) VALUES(37,'test','/qtalk_background_management/startalk/management/userMsgCount',1,'{}' ,0);
-INSERT INTO sys_permission(id ,describe,url,status,sub_permission_ids, navigation_flag) VALUES(38,'test','/qtalk_background_management/startalk/management/clientVersion',1,'{}' ,1);
-INSERT INTO sys_permission(id ,describe,url,status,sub_permission_ids, navigation_flag) VALUES(39,'test','/qtalk_background_management/startalk/management/getVersionList',1,'{}',0);
-INSERT INTO sys_permission(id ,describe,url,status,sub_permission_ids, navigation_flag) VALUES(40,'test','/qtalk_background_management/startalk/management/clickCount',1,'{41,42}',1);
-INSERT INTO sys_permission(id ,describe,url,status,sub_permission_ids, navigation_flag) VALUES(41,'test','/qtalk_background_management/startalk/management/selectList',1,'{}',0);
-INSERT INTO sys_permission(id ,describe,url,status,sub_permission_ids, navigation_flag) VALUES(42,'test','/qtalk_background_management/startalk/management/selectModel',1,'{}',0);
-INSERT INTO sys_permission(id ,describe,url,status,sub_permission_ids, navigation_flag) VALUES(43,'test','/qtalk_background_management/startalk/management/activity',1,'{}',1);
-INSERT INTO sys_permission(id ,describe,url,status,sub_permission_ids, navigation_flag) VALUES(44,'test','/qtalk_background_management/startalk/management/userOnline',1,'{45}',1);
-INSERT INTO sys_permission(id ,describe,url,status,sub_permission_ids, navigation_flag) VALUES(45,'test','/qtalk_background_management/startalk/management/searchUserOnline',1,'{}',0);
+alter sequence public.sys_permission_id_seq restart with 46;
 
-alter sequence sys_permission_id_seq restart with 46;
-
-INSERT into sys_role_permission(role_id, permission_id) VALUES (1,33),(1,34),(1,35),(1,36),(1,37),(1,38),(1,39),(1,40),(1,41),(1,42),(1,43),(1,44),(1,45);
+INSERT INTO public.sys_role_permission(role_id, permission_id) VALUES (1,33),(1,34),(1,35),(1,36),(1,37),(1,38),(1,39),(1,40),(1,41),(1,42),(1,43),(1,44),(1,45);
 
 -- auto-generated definition
-CREATE TABLE data_board_day
+CREATE TABLE public.data_board_day
 (
   id                 SERIAL                    NOT NULL
     CONSTRAINT data_board_day_pkey
@@ -3710,36 +3709,35 @@ CREATE TABLE data_board_day
 );
 
 CREATE INDEX idx_tb_data_board
-  ON data_board_day (create_time);
+  ON public.data_board_day (create_time);
 
-COMMENT ON COLUMN data_board_day.activity IS '活跃数';
+COMMENT ON COLUMN public.data_board_day.activity IS '活跃数';
 
-COMMENT ON COLUMN data_board_day.client_online_time IS '客户端在线时间';
+COMMENT ON COLUMN public.data_board_day.client_online_time IS '客户端在线时间';
 
-COMMENT ON COLUMN data_board_day.start_count IS '启动次数';
+COMMENT ON COLUMN public.data_board_day.start_count IS '启动次数';
 
-COMMENT ON COLUMN data_board_day.client_version IS '客户端版本统计';
+COMMENT ON COLUMN public.data_board_day.client_version IS '客户端版本统计';
 
-COMMENT ON COLUMN data_board_day.day_msg_count IS '每天消息量';
+COMMENT ON COLUMN public.data_board_day.day_msg_count IS '每天消息量';
 
-COMMENT ON COLUMN data_board_day.day_msg_average IS '每天平均消息量';
+COMMENT ON COLUMN public.data_board_day.day_msg_average IS '每天平均消息量';
 
-COMMENT ON COLUMN data_board_day.department_data IS '部门数据统计';
+COMMENT ON COLUMN public.data_board_day.department_data IS '部门数据统计';
 
-COMMENT ON COLUMN data_board_day.hire_type_data IS '人员类型统计';
+COMMENT ON COLUMN public.data_board_day.hire_type_data IS '人员类型统计';
 
-COMMENT ON COLUMN data_board_day.create_time IS '创建时间';
+COMMENT ON COLUMN public.data_board_day.create_time IS '创建时间';
 
-COMMENT ON COLUMN data_board_day.platform_activity IS '平台活跃数';
+COMMENT ON COLUMN public.data_board_day.platform_activity IS '平台活跃数';
 
-COMMENT ON COLUMN data_board_day.dep_activity IS '部门活跃数';
+COMMENT ON COLUMN public.data_board_day.dep_activity IS '部门活跃数';
 
-COMMENT ON COLUMN data_board_day.hire_type_activity IS '人员类型活跃数';
+COMMENT ON COLUMN public.data_board_day.hire_type_activity IS '人员类型活跃数';
 
 
 -- auto-generated definition
-CREATE TABLE client_upgrade
-(
+CREATE TABLE public.client_upgrade (
   id               SERIAL                                                NOT NULL
     CONSTRAINT client_upgrade_pkey
     PRIMARY KEY,
@@ -3760,43 +3758,43 @@ CREATE TABLE client_upgrade
 );
 
 CREATE UNIQUE INDEX client_upgrade_client_type_platform_version_uindex
-  ON client_upgrade (client_type, platform, version);
+  ON public.client_upgrade (client_type, platform, version);
 
-COMMENT ON COLUMN client_upgrade.id IS '自增id';
+COMMENT ON COLUMN public.client_upgrade.id IS '自增id';
 
-COMMENT ON COLUMN client_upgrade.client_type IS '客户端类型 qtalk,qchat';
+COMMENT ON COLUMN public.client_upgrade.client_type IS '客户端类型 qtalk,qchat';
 
-COMMENT ON COLUMN client_upgrade.platform IS '平台Android,ios';
+COMMENT ON COLUMN public.client_upgrade.platform IS '平台Android,ios';
 
-COMMENT ON COLUMN client_upgrade.version IS '版本号';
+COMMENT ON COLUMN public.client_upgrade.version IS '版本号';
 
-COMMENT ON COLUMN client_upgrade.copywriting IS '更新文案';
+COMMENT ON COLUMN public.client_upgrade.copywriting IS '更新文案';
 
-COMMENT ON COLUMN client_upgrade.grayscale_status IS '灰度测试状态 0:否 1:是';
+COMMENT ON COLUMN public.client_upgrade.grayscale_status IS '灰度测试状态 0:否 1:是';
 
-COMMENT ON COLUMN client_upgrade.grayscale_value IS '灰度量';
+COMMENT ON COLUMN public.client_upgrade.grayscale_value IS '灰度量';
 
-COMMENT ON COLUMN client_upgrade.upgrade_status IS '更新状态 0:强制更新 1:选择更新';
+COMMENT ON COLUMN public.client_upgrade.upgrade_status IS '更新状态 0:强制更新 1:选择更新';
 
-COMMENT ON COLUMN client_upgrade.upgrade_url IS '更新地址';
+COMMENT ON COLUMN public.client_upgrade.upgrade_url IS '更新地址';
 
-COMMENT ON COLUMN client_upgrade.create_time IS '创建时间';
+COMMENT ON COLUMN public.client_upgrade.create_time IS '创建时间';
 
-COMMENT ON COLUMN client_upgrade.update_time IS '更新时间';
+COMMENT ON COLUMN public.client_upgrade.update_time IS '更新时间';
 
-COMMENT ON COLUMN client_upgrade.md5_key IS '文件MD5';
+COMMENT ON COLUMN public.client_upgrade.md5_key IS '文件MD5';
 
-COMMENT ON COLUMN client_upgrade.stop_status IS '是否停止更新,0:否,1:是';
+COMMENT ON COLUMN public.client_upgrade.stop_status IS '是否停止更新,0:否,1:是';
 
-COMMENT ON COLUMN client_upgrade.stop_reason IS '停止更新原因';
+COMMENT ON COLUMN public.client_upgrade.stop_reason IS '停止更新原因';
 
-COMMENT ON COLUMN client_upgrade.updated_count IS '已更新量';
+COMMENT ON COLUMN public.client_upgrade.updated_count IS '已更新量';
 
 
 
 
 -- 原始日志数据表
-create table if not exists t_client_log
+create table if not exists public.t_client_log
 (
    id bigserial primary key,
    u_id varchar(20),
@@ -3823,38 +3821,38 @@ create table if not exists t_client_log
    l_current_page varchar(50)
 );
 
-comment on column t_client_log.id is '主键id';
-comment on column t_client_log.u_id is '用户id';
-comment on column t_client_log.u_domain is '域名 eg:ejabhost1';
+comment on column public.t_client_log.id is '主键id';
+comment on column public.t_client_log.u_id is '用户id';
+comment on column public.t_client_log.u_domain is '域名 eg:ejabhost1';
 -- 该字段从l_device_data中的os获取
-comment on column t_client_log.d_os is '操作系统 LINUX、Android、Mac、iOS、PC64、android';
+comment on column public.t_client_log.d_os is '操作系统 LINUX、Android、Mac、iOS、PC64、android';
 -- 该字段从l_device_data中的osBrand获取
-comment on column t_client_log.d_brand is '客户端手机品牌';
+comment on column public.t_client_log.d_brand is '客户端手机品牌';
 -- 该字段从l_device_data中的osModel获取
-comment on column t_client_log.d_model is '客户端机型';
+comment on column public.t_client_log.d_model is '客户端机型';
 -- 该字段从l_device_data中的plat字段获取
-comment on column t_client_log.d_plat is '客户端平台 startalk';
-comment on column t_client_log.d_ip is '客户端ip地址';
-comment on column t_client_log.d_lat is '经纬度';
-comment on column t_client_log.d_lgt is '经纬度';
-comment on column t_client_log.l_type is '日志类型，CAT、COD、ACT、CRA、FIL';
-comment on column t_client_log.l_sub_type is '日志子类型';
-comment on column t_client_log.l_report_time is '上报时间';
-comment on column t_client_log.l_data is '原始日志';
-comment on column t_client_log.l_device_data is '设备日志';
-comment on column t_client_log.l_user_data is '用户日志';
+comment on column public.t_client_log.d_plat is '客户端平台 startalk';
+comment on column public.t_client_log.d_ip is '客户端ip地址';
+comment on column public.t_client_log.d_lat is '经纬度';
+comment on column public.t_client_log.d_lgt is '经纬度';
+comment on column public.t_client_log.l_type is '日志类型，CAT、COD、ACT、CRA、FIL';
+comment on column public.t_client_log.l_sub_type is '日志子类型';
+comment on column public.t_client_log.l_report_time is '上报时间';
+comment on column public.t_client_log.l_data is '原始日志';
+comment on column public.t_client_log.l_device_data is '设备日志';
+comment on column public.t_client_log.l_user_data is '用户日志';
 -- 该字段从l_device_data中的versionCode字段获取
-comment on column t_client_log.l_version_code is '版本编号 221';
-comment on column t_client_log.l_version_name is '版本名称 3.1.5';
-comment on column t_client_log.create_time is '创建时间';
-comment on column t_client_log.l_client_event is '事件名称 eg：搜索、拉取历史耗时';
-comment on column t_client_log.d_platform is '所属平台，与d_os类型，只是经过了转小写处理, ios/linux/mac/pc32/pc64/android ';
-comment on column t_client_log.l_event_id is '事件id';
-comment on column t_client_log.l_current_page is '当前页';
+comment on column public.t_client_log.l_version_code is '版本编号 221';
+comment on column public.t_client_log.l_version_name is '版本名称 3.1.5';
+comment on column public.t_client_log.create_time is '创建时间';
+comment on column public.t_client_log.l_client_event is '事件名称 eg：搜索、拉取历史耗时';
+comment on column public.t_client_log.d_platform is '所属平台，与d_os类型，只是经过了转小写处理, ios/linux/mac/pc32/pc64/android ';
+comment on column public.t_client_log.l_event_id is '事件id';
+comment on column public.t_client_log.l_current_page is '当前页';
 
 
 -- 客户端品牌字典表
-create table if not exists t_dict_client_brand
+create table if not exists public.t_dict_client_brand
 (
  id bigserial not null
   constraint t_dict_client_brand_pkey
@@ -3867,17 +3865,17 @@ create table if not exists t_dict_client_brand
  create_time timestamp with time zone default now() not null
 );
 
-create unique index if not exists t_dict_client_brand_brand_platform_idx on t_dict_client_brand (brand, platform);
-comment on table t_dict_client_brand is '品牌渠道字典表';
-comment on column t_dict_client_brand.id is '主键';
-comment on column t_dict_client_brand.brand is '客户端手机品牌';
-comment on column t_dict_client_brand.platform is '品牌所属平台';
-comment on column t_dict_client_brand.del_flag is '删除标识 0 - 未删除 1 - 删除';
-comment on column t_dict_client_brand.create_time is '创建时间';
+create unique index if not exists t_dict_client_brand_brand_platform_idx on public.t_dict_client_brand (brand, platform);
+comment on table public.t_dict_client_brand is '品牌渠道字典表';
+comment on column public.t_dict_client_brand.id is '主键';
+comment on column public.t_dict_client_brand.brand is '客户端手机品牌';
+comment on column public.t_dict_client_brand.platform is '品牌所属平台';
+comment on column public.t_dict_client_brand.del_flag is '删除标识 0 - 未删除 1 - 删除';
+comment on column public.t_dict_client_brand.create_time is '创建时间';
 
 
 -- 客户端机型字典表
-create table if not exists t_dict_client_model
+create table if not exists public.t_dict_client_model
 (
  id bigserial not null
   constraint t_dict_client_model_pkey
@@ -3889,18 +3887,18 @@ create table if not exists t_dict_client_model
  create_time timestamp with time zone default now() not null
 );
 
-create unique index if not exists t_dict_client_model_client_model_client_brand_platform_idx on t_dict_client_model (client_model, client_brand, platform);
-comment on table t_dict_client_model is '机型字典表';
-comment on column t_dict_client_model.id is '主键';
-comment on column t_dict_client_model.client_model is '机型';
-comment on column t_dict_client_model.client_brand is '品牌';
-comment on column t_dict_client_model.platform is '所属平台';
-comment on column t_dict_client_model.del_flag is '删除标识 0 - 未删除 1 - 删除';
-comment on column t_dict_client_model.create_time is '创建时间';
+create unique index if not exists t_dict_client_model_client_model_client_brand_platform_idx on public.t_dict_client_model (client_model, client_brand, platform);
+comment on table public.t_dict_client_model is '机型字典表';
+comment on column public.t_dict_client_model.id is '主键';
+comment on column public.t_dict_client_model.client_model is '机型';
+comment on column public.t_dict_client_model.client_brand is '品牌';
+comment on column public.t_dict_client_model.platform is '所属平台';
+comment on column public.t_dict_client_model.del_flag is '删除标识 0 - 未删除 1 - 删除';
+comment on column public.t_dict_client_model.create_time is '创建时间';
 
 
 -- 客户端版本字典表
-create table if not exists t_dict_client_version
+create table if not exists public.t_dict_client_version
 (
  id bigserial not null
   constraint t_dict_client_version_pkey
@@ -3914,16 +3912,16 @@ create table if not exists t_dict_client_version
 )
 ;
 
-create unique index if not exists t_dict_client_version_client_version_platform_idx on t_dict_client_version (client_version, platform);
-comment on table t_dict_client_version is '客户端版本字典表';
-comment on column t_dict_client_version.id is '主键';
-comment on column t_dict_client_version.client_version is 'qtalk客户端版本';
-comment on column t_dict_client_version.platform is '所属平台';
-comment on column t_dict_client_version.del_flag is '删除标识 0 - 未删除 1 - 删除';
-comment on column t_dict_client_version.create_time is '创建时间';
+create unique index if not exists t_dict_client_version_client_version_platform_idx on public.t_dict_client_version (client_version, platform);
+comment on table public.t_dict_client_version is '客户端版本字典表';
+comment on column public.t_dict_client_version.id is '主键';
+comment on column public.t_dict_client_version.client_version is 'qtalk客户端版本';
+comment on column public.t_dict_client_version.platform is '所属平台';
+comment on column public.t_dict_client_version.del_flag is '删除标识 0 - 未删除 1 - 删除';
+comment on column public.t_dict_client_version.create_time is '创建时间';
 
 -- 点击事件字典表
-create table if not exists t_dict_client_event
+create table if not exists public.t_dict_client_event
 (
  id bigserial not null
   constraint t_dict_client_event_pkey
@@ -3934,16 +3932,16 @@ create table if not exists t_dict_client_event
  platform varchar(100)
 );
 
-create unique index if not exists event_platform_unique_idx on t_dict_client_event (event, platform);
-comment on table t_dict_client_event is '点击事件字典表';
-comment on column t_dict_client_event.id is '主键';
-comment on column t_dict_client_event.event is '事件';
-comment on column t_dict_client_event.del_flag is '删除标识 0 - 未删除 1 - 删除';
-comment on column t_dict_client_event.create_time is '创建时间';
+create unique index if not exists event_platform_unique_idx on public.t_dict_client_event (event, platform);
+comment on table public.t_dict_client_event is '点击事件字典表';
+comment on column public.t_dict_client_event.id is '主键';
+comment on column public.t_dict_client_event.event is '事件';
+comment on column public.t_dict_client_event.del_flag is '删除标识 0 - 未删除 1 - 删除';
+comment on column public.t_dict_client_event.create_time is '创建时间';
 
 
 -- 点击数据统计表
-create table if not exists statistic_qtalk_click_event
+create table if not exists public.statistic_qtalk_click_event
 (
  id bigserial not null
   constraint statistic_qtalk_click_event_pkey
@@ -3959,31 +3957,32 @@ create table if not exists statistic_qtalk_click_event
  create_time timestamp with time zone default now() not null
 );
 
-comment on table statistic_qtalk_click_event is '点击统计数据表';
-comment on column statistic_qtalk_click_event.id is '主键';
-comment on column statistic_qtalk_click_event.client_platform is '所属平台';
-comment on column statistic_qtalk_click_event.client_version is '客户端版本号';
-comment on column statistic_qtalk_click_event.client_brand is '客户端品牌';
-comment on column statistic_qtalk_click_event.client_model is '客户端型号';
-comment on column statistic_qtalk_click_event.click_event is '点击事件';
-comment on column statistic_qtalk_click_event.click_day is '日期(天)';
-comment on column statistic_qtalk_click_event.del_flag is '删除标识 0 - 未删除 1 - 删除';
-comment on column statistic_qtalk_click_event.create_time is '创建时间';
+comment on table public.statistic_qtalk_click_event is '点击统计数据表';
+comment on column public.statistic_qtalk_click_event.id is '主键';
+comment on column public.statistic_qtalk_click_event.client_platform is '所属平台';
+comment on column public.statistic_qtalk_click_event.client_version is '客户端版本号';
+comment on column public.statistic_qtalk_click_event.client_brand is '客户端品牌';
+comment on column public.statistic_qtalk_click_event.client_model is '客户端型号';
+comment on column public.statistic_qtalk_click_event.click_event is '点击事件';
+comment on column public.statistic_qtalk_click_event.click_day is '日期(天)';
+comment on column public.statistic_qtalk_click_event.del_flag is '删除标识 0 - 未删除 1 - 删除';
+comment on column public.statistic_qtalk_click_event.create_time is '创建时间';
 -- ldap 配置表
-create table qtalk_config
+create table public.qtalk_config
 (
     id  serial   primary key  not null,
     config_key   varchar(30)  not null,
     config_value varchar(500) not null,
     create_time  timestamp default now()
 );
-comment on column qtalk_config.config_key is '配置key';
-comment on column qtalk_config.config_value is '配置值';
-comment on column qtalk_config.create_time is '创建时间';
+comment on column public.qtalk_config.config_key is '配置key';
+comment on column public.qtalk_config.config_value is '配置值';
+comment on column public.qtalk_config.create_time is '创建时间';
 create unique index qtalk_config_id_uindex
-    on qtalk_config (id);
+    on public.qtalk_config (id);
 create unique index qtalk_config_config_key_uindex
-    on qtalk_config (config_key);
+    on public.qtalk_config (config_key);
+
 
 
 

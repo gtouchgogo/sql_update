@@ -1783,4 +1783,8 @@ ALTER TABLE ONLY public.pubsub_state
 
 
 
+-- -------------------------------------------
+insert into public.vcard_version (username, version, profile_version, gender, host, url) values ('admin', '1', '1', '1', 'yourhost', '/file/v2/download/214b6c4f070cf08a1ed27dbd73fdee5d.png');
+
+insert into public.vcard_version (username, version, profile_version, gender, host, url) values ('file-transfer', '1', '1', '1', 'yourhost', '/file/v2/download/214b6c4f070cf08a1ed27dbd73fdee5d.png');
 
