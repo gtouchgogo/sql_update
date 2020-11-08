@@ -4702,13 +4702,6 @@ ALTER TABLE ONLY public.pubsub_state
     ADD CONSTRAINT pubsub_state_nodeid_fkey FOREIGN KEY (nodeid) REFERENCES public.pubsub_node(nodeid) ON DELETE CASCADE;
 
 
---
--- TOC entry 4651 (class 0 OID 0)
--- Dependencies: 8
--- Name: SCHEMA public; Type: ACL; Schema: -; Owner: postgres
---
-
-REVOKE ALL ON SCHEMA public FROM postgres;
 
 --
 -- TOC entry 4905 (class 0 OID 0)
@@ -4779,14 +4772,6 @@ REVOKE ALL ON TABLE public.msg_history_backup FROM postgres;
 
 REVOKE ALL ON TABLE public.muc_room_history_backup FROM postgres;
 
-
---
--- TOC entry 4954 (class 0 OID 0)
--- Dependencies: 201
--- Name: TABLE pg_buffercache; Type: ACL; Schema: public; Owner: postgres
---
-
-REVOKE ALL ON TABLE public.pg_buffercache FROM postgres;
 
 
 --

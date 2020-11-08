@@ -163,6 +163,25 @@ CREATE EXTENSION IF NOT EXISTS pgstattuple WITH SCHEMA public;
 COMMENT ON EXTENSION pgstattuple IS 'show tuple-level statistics';
 
 
+
+--
+-- TOC entry 4954 (class 0 OID 0)
+-- Dependencies: 201
+-- Name: TABLE pg_buffercache; Type: ACL; Schema: public; Owner: postgres
+--
+
+REVOKE ALL ON TABLE public.pg_buffercache FROM postgres;
+
+
+
+--
+-- TOC entry 4651 (class 0 OID 0)
+-- Dependencies: 8
+-- Name: SCHEMA public; Type: ACL; Schema: -; Owner: postgres
+--
+
+REVOKE ALL ON SCHEMA public FROM postgres;
+
 --
 -- PostgreSQL database dump complete
 --
