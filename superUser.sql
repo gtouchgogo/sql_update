@@ -10,15 +10,15 @@ SET standard_conforming_strings = on;
 
 CREATE ROLE ejabberd PASSWORD '123456';
 ALTER ROLE ejabberd WITH INHERIT NOCREATEROLE NOCREATEDB LOGIN NOREPLICATION NOBYPASSRLS;
-CREATE ROLE startalk PASSWORD '123456';
-ALTER ROLE startalk WITH INHERIT NOCREATEROLE NOCREATEDB LOGIN NOREPLICATION NOBYPASSRLS;
+-- CREATE ROLE startalk PASSWORD '123456';
+-- ALTER ROLE startalk WITH INHERIT NOCREATEROLE NOCREATEDB LOGIN NOREPLICATION NOBYPASSRLS;
 
 
 --
 -- Database creation
 --
 
-CREATE DATABASE ejabberd WITH TEMPLATE = template0 OWNER = startalk;
+CREATE DATABASE ejabberd WITH TEMPLATE = template0 OWNER = ejabberd;
 REVOKE ALL ON DATABASE ejabberd FROM startalk;
 ALTER DATABASE ejabberd SET standard_conforming_strings TO 'off';
 REVOKE CONNECT,TEMPORARY ON DATABASE template1 FROM PUBLIC;
@@ -49,6 +49,17 @@ SET client_min_messages = warning;
 SET escape_string_warning = off;
 SET row_security = off;
 
+--
+-- TOC entry 508 (class 1255 OID 17223)
+-- Name: qto_char(timestamp with time zone, text); Type: FUNCTION; Schema: public; Owner: postgres
+--
+
+CREATE FUNCTION public.qto_char(timestamp with time zone, text) RETURNS text
+    LANGUAGE sql IMMUTABLE
+    AS $_$select to_char($1, $2);$_$;
+
+
+ALTER FUNCTION public.qto_char(timestamp with time zone, text) OWNER TO postgres;
 
 --
 -- TOC entry 2 (class 3079 OID 13086)
